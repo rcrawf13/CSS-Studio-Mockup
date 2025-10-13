@@ -1,0 +1,8 @@
+.container {
+    height: 90%;
+    width: 23vw;
+    box-sizing: content-box;
+    padding: 1rem;
+    justify-self: left;
+    background-color: #336D82;
+}

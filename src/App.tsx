@@ -1,10 +1,13 @@
 import AnimationBar from "./components/AnimationBar"
+import CodePen from "./components/codepen/CodePen"
+import ArtBoard from "./components/artboard/ArtBoard"
 function App() {
 
   return (
     <>
-     <div className="board"></div>
-     <AnimationBar/>
+    <CodePen/>
+    <ArtBoard/>
+    <AnimationBar/>
      
     
     </>

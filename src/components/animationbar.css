@@ -40,9 +40,12 @@
     flex-direction: row;
     padding: .5rem;
     gap: .5rem;
+
+
+    /* For overflow in framebar */
     box-sizing: border-box;
-    overflow-y: hidden;
-    overflow-x: scroll;
+    overflow-x: auto;
+    scrollbar-width: thin;
 }
 
 
@@ -55,9 +58,14 @@
 
 .frame {
     height: 80px;
-    width: 10%;
 
-    max-width: 81.838px;
+    /* Used to disable number highlighting within a div */
+    user-select: none;
+   
+
+
+
+    min-width: 81.838px;
     border: 5px solid #2A2139;
     border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -79,6 +87,10 @@
     display:flex;
     justify-content: center;
     align-items: center;
+
+    background-image: url("../assets/Add.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #plus:hover {
