@@ -2,7 +2,7 @@
     height: 200px;
     width: 100vw;
     background-color: #2A2139;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0%;
     display: flex;
     justify-content: space-evenly;
@@ -11,6 +11,8 @@
 
     box-sizing: border-box;
     padding: .5rem;
+
+    align-self: self-end;
 
 }
 

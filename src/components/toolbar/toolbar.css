@@ -1,0 +1,51 @@
+.toolbar-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+
+    background-color:#EBEBEB;
+    border: 4.6pt #A0A3B6 solid;
+    height: 30vh;
+    width: 55px;
+    position: absolute;
+    align-self: center;
+    right: 1rem;
+    border-radius:100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    -ms-border-radius:100px;
+    -o-border-radius:100px;
+}
+
+
+.toolbar-Container > * {
+    height: 30px;
+    width: 30px;
+}
+
+.toolbar-Container > *:hover {
+    cursor: pointer;
+}
+
+.toolbar-Container > .square {
+    background-image: url("../../assets/Square.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.toolbar-Container > .circle {
+    background-image: url("../../assets/Circle.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.toolbar-Container > .triangle {
+    background-image: url("../../assets/Triangle.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}

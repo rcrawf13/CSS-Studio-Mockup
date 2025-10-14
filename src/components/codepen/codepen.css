@@ -1,6 +1,6 @@
 .container {
-    height: 90%;
-    width: 23vw;
+    height: 100%;
+    max-width: auto;
     box-sizing: content-box;
     padding: 1rem;
     justify-self: left;

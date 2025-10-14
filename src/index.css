@@ -82,3 +82,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+
+.grid {
+  display: grid;
+  height: 100vh;
+  /* grid-template-columns: 1fr 10fr; */
+  grid-template-rows: 1fr auto;
+}
+
+
+
+.grid > .columns {
+  display: grid;
+  /* Grid Column for codepen is not responsive for smaller screens */
+    grid-template-columns: minmax(205.275px, 305.275px) auto;
+
+}
