@@ -1,6 +1,9 @@
 import "./toolbar.css"
 const ShapeBar = () => {
-
+    // TODO
+    // Use onClick event to detect which tool is selected
+    // Update State on toolbar 
+    // Probably pass state to artboard 
 
     
     return (
