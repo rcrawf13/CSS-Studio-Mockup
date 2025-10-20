@@ -3,6 +3,11 @@ import { useState } from "react"
 const ShapeBar = () => {
 
     const [currentTool, setCurrentTool] = useState("");
+    // TODO
+    // Use onClick event to detect which tool is selected
+    // Update State on toolbar 
+    // Probably pass state to artboard 
+
     
     const ChangeCurrentTool = (toolName:string) => {
         setCurrentTool(toolName);        
